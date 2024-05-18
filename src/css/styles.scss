@@ -7,6 +7,7 @@ $primary: #ffab35;
 $secondary: #02557d;
 $danger: #ff4136;
 $custom-color: #900;
+$btn-text: #fff;
 
 //
 $theme-colors: (
@@ -34,6 +35,41 @@ $theme-colors: map-remove($theme-colors, "info", "light", "dark");
   width: 200px;
   height: 4px;
   background: $primary;
+}
+
+.line2 {
+  width: 320px;
+  height: 2px;
+  background: $primary;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background: $primary;
+  border-radius: 100%;
+}
+
+.card_line {
+  height: 10px;
+  width: 100%;
+  background-color: $secondary;
+}
+.card_line_2 {
+  height: 10px;
+  width: 100%;
+  background-color: $primary;
+}
+
+.btn-outline {
+  border-radius: 40px !important;
+  padding: 0.4em 3em !important;
+  color: $primary !important;
+  border: 2px solid $primary !important;
+}
+.btn-outline:hover {
+  background: $primary;
+  color: $btn-text !important;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

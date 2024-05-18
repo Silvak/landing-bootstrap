@@ -1,16 +1,24 @@
-/*  styles  */
+/*  general  */
 body {
-  background: #3232 !important;
+  background: #fff !important;
 }
 section {
   min-height: 60vh;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #44444460;
+  padding: 4.4rem 0 !important;
+  overflow: hidden;
 }
 
+.btn-primary {
+  border-radius: 40px !important;
+  padding: 0.4em 3em !important;
+  color: white !important;
+}
+
+/* Hero */
 #hero {
   position: relative;
-  height: 80vh;
-  background: red;
+  min-height: 80vh !important;
 }
 
 #video {
@@ -22,11 +30,8 @@ section {
 }
 
 .hero-ctn {
-  position: absolute;
-
-  top: 0;
   width: 100%;
-  height: 100%;
+  min-height: 80vh;
   background: rgb(120, 171, 237);
   background: linear-gradient(
     5deg,
@@ -34,12 +39,6 @@ section {
     rgba(2, 85, 125, 0.8) 100%
   );
   backdrop-filter: blur(8px);
-}
-
-.btn-primary {
-  border-radius: 40px !important;
-  padding: 0.4em 3em !important;
-  color: white !important;
 }
 
 .form-control {
@@ -50,4 +49,40 @@ section {
 .card {
   border-radius: 16px !important;
   overflow: hidden !important;
+}
+
+/* Popular */
+.card-img {
+  height: 220px !important;
+  object-fit: cover;
+}
+
+/* About */
+.img-contaienr {
+  display: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 320px;
+}
+
+.img-contaienr > img {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+
+  object-fit: cover;
+  border-radius: 24px;
+  border: 6px solid white;
+  z-index: 10 !important;
+}
+
+.img-contaienr > div {
+  position: absolute;
+  top: 4.2rem;
+  width: 90%;
+  height: 100%;
+  border-radius: 18px;
+  border: 4px solid #fcb749;
+  transform: rotate(5deg);
 }
