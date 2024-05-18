@@ -122,5 +122,48 @@ section {
 /* Carrers */
 
 /* Team  <<<< */
+#teamCard {
+  width: 100%;
+}
 
+@media screen and (1000px >= width) {
+  #teamCard {
+    width: 80%;
+  }
+}
+
+#teamCard > .img-wrapper {
+  position: relative;
+  background: #014769;
+}
+
+#teamCard > div > img {
+  max-height: 120px;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 6px solid white;
+}
+
+.avatar > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#teamCard > .card-body > p {
+  height: 60px;
+  overflow: hidden;
+}
 /* Reviews */

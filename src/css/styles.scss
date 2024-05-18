@@ -8,6 +8,7 @@ $secondary: #02557d;
 $danger: #ff4136;
 $custom-color: #900;
 $btn-text: #fff;
+$light: #efefef;
 
 $theme-colors: (
   "primary": $primary,
@@ -61,5 +62,7 @@ $theme-colors: (
   background: $primary;
   color: $btn-text !important;
 }
+
+//carousel
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
