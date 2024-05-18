@@ -36,4 +36,4 @@ $theme-colors: map-remove($theme-colors, "info", "light", "dark");
   background: $primary;
 }
 
-@import "~bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
