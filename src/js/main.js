@@ -1,4 +1,5 @@
-import "../scss/styles.scss";
+import "../css/styles.scss";
+import "../css/main.css";
 
 // form
 document
