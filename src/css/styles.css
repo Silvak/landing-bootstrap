@@ -1,0 +1,31 @@
+body {
+  background: #3232 !important;
+}
+
+#hero {
+  position: relative;
+  height: 80vh;
+  background: red;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-ctn {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(120, 171, 237);
+  background: linear-gradient(
+    5deg,
+    rgba(120, 171, 237, 0.55) 0%,
+    rgba(2, 85, 125, 0.8) 100%
+  );
+  backdrop-filter: blur(1px);
+}
