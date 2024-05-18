@@ -9,7 +9,6 @@ $danger: #ff4136;
 $custom-color: #900;
 $btn-text: #fff;
 
-//
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -20,15 +19,6 @@ $theme-colors: (
   "light": $light,
   "dark": $dark,
 );
-
-/*
-$custom-colors: (
-  "custom-color": $custom-color,
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");
-*/
 
 //componentes
 .line {

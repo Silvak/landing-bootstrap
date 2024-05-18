@@ -86,3 +86,35 @@ section {
   border: 4px solid #fcb749;
   transform: rotate(5deg);
 }
+
+/* Benefits*/
+#benefit {
+  background: url("../assets/img/BACKGROUND\ BENEFITS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 0px;
+}
+
+.benefit-ctn {
+  width: 100%;
+  padding: 8% 0px;
+  background: rgb(120, 171, 237);
+  background: linear-gradient(
+    5deg,
+    rgba(120, 171, 237, 0.55) 0%,
+    rgba(2, 85, 125, 0.8) 100%
+  );
+}
+
+#icon-card > div > div {
+  height: 120px;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 1.4rem;
+}
+
+#icon-card > div > div > img {
+  object-fit: contain;
+  height: 100%;
+}
