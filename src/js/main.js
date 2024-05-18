@@ -1,5 +1,3 @@
-import "../css/styles.scss";
-
 document
   .getElementById("registerForm")
   .addEventListener("submit", function (event) {
