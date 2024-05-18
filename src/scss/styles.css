@@ -1,11 +1,3 @@
-:root {
-  --primary: #fcb749 !important;
-}
-/* colors */
-.color-primary {
-  background: var(--primary);
-}
-
 /*  styles  */
 body {
   background: #3232 !important;

@@ -8,7 +8,7 @@ export default {
     },
   },
   server: {
-    port: 3080,
+    port: 3000,
     hot: true,
   },
 };

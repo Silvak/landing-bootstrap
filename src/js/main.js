@@ -1,3 +1,5 @@
+import "../scss/styles.scss";
+
 // form
 document
   .getElementById("registerForm")
