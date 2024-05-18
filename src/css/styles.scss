@@ -2,13 +2,12 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 
-//colors vars
+// colors vars
 $primary: #ffab35;
 $secondary: #02557d;
 $danger: #ff4136;
 $custom-color: #900;
 
-//
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -20,16 +19,7 @@ $theme-colors: (
   "dark": $dark,
 );
 
-/*
-$custom-colors: (
-  "custom-color": $custom-color,
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");
-*/
-
-//componentes
+// componentes
 .line {
   width: 200px;
   height: 4px;
