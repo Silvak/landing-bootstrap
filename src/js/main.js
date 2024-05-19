@@ -2,7 +2,6 @@ import "../css/styles.scss";
 import "../css/main.css";
 
 //header
-// header
 window.addEventListener("scroll", function () {
   let topHead = document.getElementById("tophead");
   let topHeadLinks = topHead.querySelectorAll("a"); // Selecciona todos los <a> dentro de tophead
@@ -58,6 +57,7 @@ document
     window.location.href = mailtoLink;
   });
 
+//
 console.log(`
  _______________________________📌
 |                               |
