@@ -37,6 +37,16 @@ document
     window.location.href = mailtoLink;
   });
 
+function openMailApp() {
+  const emailInput = document.getElementById("emailInput").value;
+  if (emailInput) {
+    const mailtoLink = `mailto:${emailInput}`;
+    window.location.href = mailtoLink;
+  } else {
+    alert("Please enter a valid email address.");
+  }
+}
+
 console.log(`
  _______________________________📌
 |                               |
