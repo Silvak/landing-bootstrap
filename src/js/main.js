@@ -1,8 +1,29 @@
 import "../css/styles.scss";
 import "../css/main.css";
-import $ from "jquery";
 
-//_________________________________________________form_______________________________________________
+//header
+// header
+window.addEventListener("scroll", function () {
+  let topHead = document.getElementById("tophead");
+  let topHeadLinks = topHead.querySelectorAll("a"); // Selecciona todos los <a> dentro de tophead
+  let header = document.getElementById("head");
+
+  if (window.scrollY > 42) {
+    topHead.style.backgroundColor = "#fff";
+    topHeadLinks.forEach(function (link) {
+      link.style.color = "#02557d"; // Eliminar !important ya que no es necesario en JavaScript
+    });
+    header.style.backgroundColor = "#02557D";
+  } else {
+    topHead.style.backgroundColor = "#02557d";
+    topHeadLinks.forEach(function (link) {
+      link.style.color = "#fff";
+    });
+    header.style.backgroundColor = "transparent";
+  }
+});
+
+//form
 document
   .getElementById("registerForm")
   .addEventListener("submit", function (event) {
@@ -36,16 +57,6 @@ document
       );
     window.location.href = mailtoLink;
   });
-
-function openMailApp() {
-  const emailInput = document.getElementById("emailInput").value;
-  if (emailInput) {
-    const mailtoLink = `mailto:${emailInput}`;
-    window.location.href = mailtoLink;
-  } else {
-    alert("Please enter a valid email address.");
-  }
-}
 
 console.log(`
  _______________________________📌
